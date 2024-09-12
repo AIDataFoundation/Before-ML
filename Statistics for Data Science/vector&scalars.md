@@ -55,11 +55,8 @@ $$
   $$
 
 - **Cross Product**: The cross product of two vectors is a vector that is perpendicular to both original vectors.
-  $$
-  
-  \vec{a} \times \vec{b} = (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1)
-  
-  $$
+
+  $(\vec{a} \times \vec{b} = (a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1))$
 
 ---
 
