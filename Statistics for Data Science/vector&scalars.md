@@ -18,8 +18,8 @@
 - **Energy** (e.g., 100 Joules)
 
 ### Operations on Scalars:
-- **Addition/Subtraction**: Standard arithmetic applies (e.g., \(5 + 3 = 8\)).
-- **Multiplication/Division**: Follow basic arithmetic rules (e.g., \(5 \times 3 = 15\)).
+- **Addition/Subtraction**: Standard arithmetic applies (e.g., $(5 + 3 = 8)$).
+- **Multiplication/Division**: Follow basic arithmetic rules (e.g., $(5 \times 3 = 15)$).
 
 ---
 
@@ -34,18 +34,13 @@
 
 ### Operations on Vectors:
 - **Addition**: Two vectors are added component-wise.
-$$
- vec(a) = (a_1, a_2, a_3),vec(b) = (b_1, b_2, b_3)\
-$$
-$$
-vec{a} + vec{b} = (a_1 + b_1, a_2 + b_2, a_3 + b_3)
-$$
+$(\vec{a} = (a_1, a_2, a_3),\vec{b} = (b_1, b_2, b_3)$
+$(\vec{a} + \vec{b} = (a_1 + b_1, a_2 + b_2, a_3 + b_3))
+$
 
 - **Scalar Multiplication**: A vector is multiplied by a scalar by multiplying each component by the scalar.
-  
- $$
-  k \cdot \vec{a} = (k \cdot a_1, k \cdot a_2, k \cdot a_3)
- $$
+
+$(k \cdot \vec{a} = (k \cdot a_1, k \cdot a_2, k \cdot a_3))$
  
 - **Dot Product**: The dot product of two vectors is a scalar.
  
