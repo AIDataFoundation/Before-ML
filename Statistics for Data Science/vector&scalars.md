@@ -44,10 +44,7 @@ $(k \cdot \vec{a} = (k \cdot a_1, k \cdot a_2, k \cdot a_3))$
  
 - **Dot Product**: The dot product of two vectors is a scalar.
  
-  $$
-  \vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + a_3 b_3
-  
-  $$
+  $(\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + a_3 b_3)$
 
 - **Cross Product**: The cross product of two vectors is a vector that is perpendicular to both original vectors.
 
