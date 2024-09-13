@@ -204,13 +204,18 @@ Perform row operations to get the identity matrix on the left-hand side:
 
 - $$( R2 \leftarrow R2 - 3R1 )$$ 
 : 
+
 $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & -7 & | & -11 \end{bmatrix} )$$
+
 - $$( R2 \leftarrow R2 / -7 )$$ 
 : 
+
 $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
 
 - $$( R1 \leftarrow R1 - 2R2 )$$
+
 :
+
  $$( \begin{bmatrix} 1 & 0 & | & \frac{13}{7} \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
 
 Thus, $$( x = \frac{13}{7} )$$, and $$( y = \frac{11}{7} )$$.
@@ -246,11 +251,15 @@ $$[
 **Step 2: Eliminate $$( x )$$ from the second equation:**
 
 - $$( R2 \leftarrow R2 - \frac{1}{2}R1 )$$
-: $$( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$$
+
+
+$$( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$$
 
 **Step 3: Solve by back substitution:**
 
-- From the second equation: $$( y = \frac{4}{5} )$$
+- From the second equation: 
+
+$$( y = \frac{4}{5} )$$
 - Substitute $$( y )$$ into the first equation: $$( x = \frac{14}{5} )$$
 
 ---
@@ -284,14 +293,17 @@ $$[\begin{bmatrix}
 1 & 2 \\
 3 & -1\end{bmatrix}
 \begin{bmatrix}
-x \\y\end{bmatrix}
-= \begin{bmatrix}5 \\4\end{bmatrix}]$$
+x \\ y\end{bmatrix}
+= \begin{bmatrix}5 \\ 4\end{bmatrix}]$$
 
 Let:
 - $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$ 
+
 (Coefficient matrix)
+
 - $$( B = \begin{bmatrix} 5 \\ 4 \end{bmatrix} )$$
- (Constant matrix)
+
+(Constant matrix)
 
 **Step 2: Perform LU Decomposition**
 
