@@ -36,7 +36,8 @@ $$[
 AX = B]$$
 
 Where:
-- $$( A )$$ is the coefficient matrix,
+
+- $$( A )$$  is the coefficient matrix,
 - $$( X )$$ is the column vector of variables,
 - $$( B )$$ is the column vector of constants.
 
@@ -201,9 +202,16 @@ $$[
 
 Perform row operations to get the identity matrix on the left-hand side:
 
-- $$( R2 \leftarrow R2 - 3R1 )$$: $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & -7 & | & -11 \end{bmatrix} )$$
-- $$( R2 \leftarrow R2 / -7 )$$: $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
-- $$( R1 \leftarrow R1 - 2R2 )$$: $$( \begin{bmatrix} 1 & 0 & | & \frac{13}{7} \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
+- $$( R2 \leftarrow R2 - 3R1 )$$ 
+: 
+$$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & -7 & | & -11 \end{bmatrix} )$$
+- $$( R2 \leftarrow R2 / -7 )$$ 
+: 
+$$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
+
+- $$( R1 \leftarrow R1 - 2R2 )$$
+:
+ $$( \begin{bmatrix} 1 & 0 & | & \frac{13}{7} \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
 
 Thus, $$( x = \frac{13}{7} )$$, and $$( y = \frac{11}{7} )$$.
 
@@ -237,7 +245,8 @@ $$[
 
 **Step 2: Eliminate $$( x )$$ from the second equation:**
 
-- $$( R2 \leftarrow R2 - \frac{1}{2}R1 )$$: $$( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$$
+- $$( R2 \leftarrow R2 - \frac{1}{2}R1 )$$
+: $$( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$$
 
 **Step 3: Solve by back substitution:**
 
@@ -279,8 +288,10 @@ x \\y\end{bmatrix}
 = \begin{bmatrix}5 \\4\end{bmatrix}]$$
 
 Let:
-- $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$ (Coefficient matrix)
-- $$( B = \begin{bmatrix} 5 \\ 4 \end{bmatrix} )$$ (Constant matrix)
+- $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$ 
+(Coefficient matrix)
+- $$( B = \begin{bmatrix} 5 \\ 4 \end{bmatrix} )$$
+ (Constant matrix)
 
 **Step 2: Perform LU Decomposition**
 
@@ -308,7 +319,10 @@ Thus:
 
 **Step 3: Solve $$(LY = B)$$**
 
-Now, solve the system $$(LY = B)$$, where $$( Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} )$$:
+Now, solve the system $$(LY = B)$$, where 
+
+$$( Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} )$$
+:
 
 $$[
 \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix}
@@ -328,14 +342,17 @@ Thus:
 
 $$(Y = \begin{bmatrix} 5 \\ -11 \end{bmatrix})$$
 
-**Step 4: Solve $(UX = Y)$**
+**Step 4: Solve $$(UX = Y)$$**
 
-Next, solve $(UX = Y)$, where $$(X = \begin{bmatrix} x \\ y \end{bmatrix})$$:
+Next, solve $$(UX = Y)$$, where
+
+$$( X = \begin{bmatrix} x \\ y \end{bmatrix} )$$ 
+
+
 
 $$[
-\begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix}
-\begin{bmatrix} x \\ y \end{bmatrix}
-=\begin{bmatrix} 5 \\ -11 \end{bmatrix}
+(\begin{bmatrix} 1 & 2 \\0 & -7 \end{bmatrix}
+\begin{bmatrix} x \\ y \end{bmatrix}=\begin{bmatrix} 5 \\ -11 \end{bmatrix})
 ]$$
 
 
