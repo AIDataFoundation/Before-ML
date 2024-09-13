@@ -188,7 +188,7 @@ A = \begin{pmatrix}
 1 & 2 \\ 
 3 & 4
 \end{pmatrix}]$$ 
-, we already computed $(det(A)=-2)$.
+,we already computed $(det(A)=-2)$.
 
 $$[
 A^{-1} = \frac{1}{-2} \cdot \begin{pmatrix} 
