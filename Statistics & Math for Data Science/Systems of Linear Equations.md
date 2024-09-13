@@ -252,11 +252,24 @@ $[
 x = \frac{13}{7}, \quad y = \frac{11}{7}
 ]$
 
+<<<<<<< HEAD
 $[
 \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix}
 \begin{bmatrix} x \\ y \end{bmatrix}
 =\begin{bmatrix} 5 \\ 4 \end{bmatrix}
 ]$
+=======
+**Step 1: Write the system in matrix form**
+
+The system of equations can be represented as:
+
+$[\begin{bmatrix}
+1 & 2 \\
+3 & -1\end{bmatrix}
+\begin{bmatrix}
+x \\y\end{bmatrix}
+= \begin{bmatrix}5 \\4\end{bmatrix}]$
+>>>>>>> abbbc41de70e76332049c4c562c40d0eee7615b7
 
 Let:
 - $( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$ (Coefficient matrix)
