@@ -182,8 +182,10 @@ a_{22} & -a_{12} \\
 \end{pmatrix}
 ]$$
 
-For $$[A = \begin{pmatrix} 1 & 2 \\ 3 & 4\end{pmatrix}]$$
-, we already computed $( \text{det}(A) = -2 )$, so:
+For 
+
+$$[A = \begin{pmatrix} 1 & 2 \\ 3 & 4\end{pmatrix}]$$
+ , we already computed $( \text{det}(A) = -2 )$, so:
 
 $$[
 A^{-1} = \frac{1}{-2} \cdot \begin{pmatrix} 
