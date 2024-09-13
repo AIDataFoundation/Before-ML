@@ -331,6 +331,7 @@ $$[
 =\begin{bmatrix} 5 \\ -11 \end{bmatrix}
 ]$$
 
+
 From the second row:
 
 $(-7y = -11 \quad \Rightarrow \quad y = \frac{11}{7})$
