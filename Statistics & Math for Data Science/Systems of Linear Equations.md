@@ -380,7 +380,7 @@ $$( X = \begin{bmatrix} x \\ y \end{bmatrix} )$$
 
 
 $$[
-(\begin{bmatrix} 1 & 2 \\0 & -7 \end{bmatrix}
+(\begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix}
 \begin{bmatrix} x \\ y \end{bmatrix}=\begin{bmatrix} 5 \\ -11 \end{bmatrix})
 ]$$
 
