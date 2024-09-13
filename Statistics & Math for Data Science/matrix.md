@@ -169,7 +169,7 @@ A = \begin{pmatrix}
 ]$$
 
 ### 7. Inverse of a Matrix
-The inverse of a square matrix **A**, denoted **A^{-1}**, is such that **A ⋅ A^{-1} = I**, where **I** is the identity matrix. A matrix must be square and have a non-zero determinant to have an inverse.
+The inverse of a square matrix **A**, denoted **$A^{-1}$**, is such that **$A ⋅ A^{-1} = I$**, where **I** is the identity matrix. A matrix must be square and have a non-zero determinant to have an inverse.
 
 **Example:**
 
@@ -183,11 +183,13 @@ a_{22} & -a_{12} \\
 ]$$
 
 For
+
 $$[
 A = \begin{pmatrix} 
 1 & 2 \\
 3 & 4\end{pmatrix}
 ]$$
+
 ,we already computed $(det(A)=-2)$.
 
 $$[
