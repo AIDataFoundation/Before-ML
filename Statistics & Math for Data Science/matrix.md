@@ -186,9 +186,8 @@ For
 $$
 [
 A = \begin{pmatrix} 
-1 & 2 \\ 
-3 & 4
-\end{pmatrix}]
+1 & 2\\3 & 4\end{pmatrix}
+]
 $$
 ,we already computed $(det(A)=-2)$.
 
