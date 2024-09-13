@@ -183,11 +183,13 @@ a_{22} & -a_{12} \\
 ]$$
 
 For
-$[
+$$
+[
 A = \begin{pmatrix} 
 1 & 2 \\ 
 3 & 4
-\end{pmatrix}]$
+\end{pmatrix}]
+$$
 ,we already computed $(det(A)=-2)$.
 
 $$[
