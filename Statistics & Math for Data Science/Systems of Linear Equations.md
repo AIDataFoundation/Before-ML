@@ -238,114 +238,84 @@ $[
 
 ---
 
-**5. LU Decomposition**
+#### **5. LU Decomposition**
 
 In LU Decomposition, we decompose the coefficient matrix $( A )$ into a product of a lower triangular matrix $( L )$ and an upper triangular matrix $( U )$.
 
 **Example:**
 Solve the system:
 
-$[
-x + 2y = 5
-]$
-$[
-3x - y = 4
-]$
+$[x + 2y = 5]$
+$[3x - y = 4]$
 
 *Step 1: Write the system in matrix form*
 
 The system of equations can be represented as:
 
-$[
-\begin{bmatrix}
+$[\begin{bmatrix}
 1 & 2 \\
-3 & -1
-\end{bmatrix}
+3 & -1\end{bmatrix}
 \begin{bmatrix}
-x \\
-y
-\end{bmatrix}
-=\begin{bmatrix}
-5 \\
-4
-\end{bmatrix}
-]$
+x \\y\end{bmatrix}
+= \begin{bmatrix}5 \\4\end{bmatrix}]$
 
 Let:
-- $( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$ (Coefficient matrix)
-- $( B = \begin{bmatrix} 5 \\ 4 \end{bmatrix} )$ (Constant matrix)
+- $(A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$ (Coefficient matrix)
+- $(B = \begin{bmatrix} 5 \\ 4 \end{bmatrix} )$ (Constant matrix)
 
 **Step 2: Perform LU Decomposition**
 
-We decompose $( A )$ into the product of a lower triangular matrix $( L )$ and an upper triangular matrix $( U )$.
+We decompose $(A)$ into the product of a lower triangular matrix $(L)$ and an upper triangular matrix $(U)$.
 
 Let:
-$[
-A = LU
-]$
+$[A = LU]$
 Where:
-- $( L )$ is a lower triangular matrix of the form $( \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} )$
-- $( U )$ is an upper triangular matrix of the form $( \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} )$
+- $(L)$ is a lower triangular matrix of the form $(\begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix})$
+- $(U)$ is an upper triangular matrix of the form $(\begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix})$
 
-**Compute $( L )$ and $(U)$**
+**Compute $(L)$ and $(U)$**
 
 We perform row operations on $( A )$ to make it upper triangular:
 
 - Start with $( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$.
 - Perform the row operation $( R_2 \leftarrow R_2 - 3R_1 )$:
 
-  $[
-  R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix}
-  ]$
+  $[ R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix}]$
 
 Thus:
-- $( U = \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} )$
-- $( L = \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} )$
+- $(U = \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix})$
+- $(L = \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix})$
 
 **Step 3: Solve $( LY = B )$**
 
-Now, solve the system $( LY = B )$, where $( Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} )$:
+Now, solve the system $(LY = B)$, where $(Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix})$:
 
-$[
-\begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} = \begin{bmatrix} 5 \\ 4 \end{bmatrix}
-]$
+$[\begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} = \begin{bmatrix} 5 \\ 4 \end{bmatrix}]$
 
 From the first row:
 
-$[
-y_1 = 5
-]$
+$[y_1 = 5]$
 
 Substitute $( y_1 = 5 )$ into the second row equation:
 
-$[
-3(5) + y_2 = 4 \quad \Rightarrow \quad y_2 = 4 - 15 = -11
-]$
+$[3(5) + y_2 = 4 \quad \Rightarrow \quad y_2 = 4 - 15 = -11]$
 
 Thus:
-$[
-Y = \begin{bmatrix} 5 \\ -11 \end{bmatrix}
-]$
+$[Y = \begin{bmatrix} 5 \\ -11 \end{bmatrix}]$
 
 **Step 4: Solve \( UX = Y \)**
 
 Next, solve $( UX = Y )$, where $( X = \begin{bmatrix} x \\ y \end{bmatrix} )$:
 
-$[
-\begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 5 \\ -11 \end{bmatrix}
-]$
+$[\begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 5 \\ -11 \end{bmatrix}]$
 
 From the second row:
 
-$[
--7y = -11 \quad \Rightarrow \quad y = \frac{11}{7}
-]$
+$[-7y = -11 \quad \Rightarrow \quad y = \frac{11}{7}]$
 
 Substitute $( y = \frac{11}{7} )$ into the first row equation:
 
-$[
-x + 2\left(\frac{11}{7}\right) = 5 \quad \Rightarrow \quad x + \frac{22}{7} = 5 \quad \Rightarrow \quad x = 5 - \frac{22}{7} = \frac{35}{7} - \frac{22}{7} = \frac{13}{7}
-]$
+$[x + 2\left(\frac{11}{7}\right) = 5 \quad \Rightarrow \quad x + \frac{22}{7} = 5 \quad \Rightarrow \quad x = 5 - \frac{22}{7} = \frac{35}{7} - \frac{22}{7} = \frac{13}{7}]$
 
 **Solution:**
 
