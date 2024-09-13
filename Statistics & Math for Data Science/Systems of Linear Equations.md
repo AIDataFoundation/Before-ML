@@ -297,6 +297,7 @@ x \\ y\end{bmatrix}
 = \begin{bmatrix}5 \\ 4\end{bmatrix}]$$
 
 Let:
+
 - $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$ 
 
 (Coefficient matrix)
@@ -313,20 +314,36 @@ Let:
 $$( A = LU )$$
 
 Where:
-- $$(L)$$ is a lower triangular matrix of the form $$( \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} )$$
-- $$(U)$$ is an upper triangular matrix of the form $$( \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} )$$ 
+
+- $$(L)$$ is a lower triangular matrix of the form 
+
+$$( \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} )$$
+
+
+- $$(U)$$ is an upper triangular matrix of the form 
+
+$$( \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} )$$ 
+
+
 
 **Compute $$(L)$$ and $$(U)$$**
 
 We perform row operations on $(A)$ to make it upper triangular:
 
-- Start with $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$.
-- Perform the row operation $( R_2 \leftarrow R_2 - 3R_1 )$:
+- Start with 
 
-  $$( R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix} )$$
+$$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$
+
+- Perform the row operation $$( R_2 \leftarrow R_2 3R_1 )$$
+
+
+$$( R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix} )$$
+
 
 Thus:
+
 - $$( U = \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} )$$
+
 - $$( L = \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} )$$
 
 **Step 3: Solve $$(LY = B)$$**
@@ -334,7 +351,7 @@ Thus:
 Now, solve the system $$(LY = B)$$, where 
 
 $$( Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} )$$
-:
+
 
 $$[
 \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix}
