@@ -248,7 +248,7 @@ Solve the system:
 $[x + 2y = 5]$
 $[3x - y = 4]$
 
-*Step 1: Write the system in matrix form*
+**Step 1: Write the system in matrix form**
 
 The system of equations can be represented as:
 
