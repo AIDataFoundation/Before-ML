@@ -65,7 +65,8 @@ $[
 
 The system in matrix form is:
 
-$[
+$$
+[
 \begin{bmatrix}
 1 & 2 \\
 3 & -1
@@ -78,31 +79,32 @@ y
 5 \\
 4
 \end{bmatrix}
-]$
+]
+$$
 
 Using Cramer's Rule:
 
-$[
+$$[
 D = \begin{vmatrix} 1 & 2 \\ 3 & -1 \end{vmatrix} = 1(-1) - 2(3) = -1 - 6 = -7
-]$
+]$$
 
 Now calculate $( D_x )$ and $( D_y )$:
 
-$[
+$$[
 D_x = \begin{vmatrix} 5 & 2 \\ 4 & -1 \end{vmatrix} = 5(-1) - 2(4) = -5 - 8 = -13
-]$
-$[
+]$$
+$$[
 D_y = \begin{vmatrix} 1 & 5 \\ 3 & 4 \end{vmatrix} = 1(4) - 5(3) = 4 - 15 = -11
-]$
+]$$
 
 The solutions are:
 
-$[
+$$[
 x = \frac{D_x}{D} = \frac{-13}{-7} = \frac{13}{7}
-]$
-$[
+]$$
+$$[
 y = \frac{D_y}{D} = \frac{-11}{-7} = \frac{11}{7}
-]$
+]$$
 
 ---
 
@@ -124,7 +126,7 @@ x - y = 2
 
 The matrix form is:
 
-$[
+$$[
 \begin{bmatrix}
 2 & 3 \\
 1 & -1
@@ -137,31 +139,31 @@ y
 8 \\
 2
 \end{bmatrix}
-]$
+]$$
 
 Find the inverse of matrix $( A )$:
 
-$[
+$$[
 A = \begin{bmatrix} 2 & 3 \\ 1 & -1 \end{bmatrix}, \quad A^{-1} = \frac{1}{\text{det}(A)} \text{adj}(A)
-]$
+]$$
 
-$[
+$$[
 \text{det}(A) = 2(-1) - 3(1) = -2 - 3 = -5
-]$
+]$$
 
-$[
+$$[
 \text{adj}(A) = \begin{bmatrix} -1 & -3 \\ -1 & 2 \end{bmatrix}
-]$
+]$$
 
-$[
+$$[
 A^{-1} = \frac{1}{-5} \begin{bmatrix} -1 & -3 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} \frac{1}{5} & \frac{3}{5} \\ \frac{1}{5} & \frac{-2}{5} \end{bmatrix}
-]$
+]$$
 
 Now, multiply $( A^{-1} )$ by $( B )$:
 
-$[
+$$[
 X = A^{-1}B = \begin{bmatrix} \frac{1}{5} & \frac{3}{5} \\ \frac{1}{5} & \frac{-2}{5} \end{bmatrix} \begin{bmatrix} 8 \\ 2 \end{bmatrix} = \begin{bmatrix} \frac{8}{5} + \frac{6}{5} \\ \frac{8}{5} - \frac{4}{5} \end{bmatrix} = \begin{bmatrix} \frac{14}{5} \\ \frac{4}{5} \end{bmatrix}
-]$
+]$$
 
 Thus, $( x = \frac{14}{5} )$, and $( y = \frac{4}{5} )$.
 
@@ -185,18 +187,18 @@ $[
 
 The augmented matrix is:
 
-$[
+$$[
 \begin{bmatrix}
 1 & 2 & | & 5 \\
 3 & -1 & | & 4
 \end{bmatrix}
-]$
+]$$
 
 Perform row operations to get the identity matrix on the left-hand side:
 
-- $( R2 \leftarrow R2 - 3R1 )$: $( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & -7 & | & -11 \end{bmatrix} )$
-- $( R2 \leftarrow R2 / -7 )$: $( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$
-- $( R1 \leftarrow R1 - 2R2 )$: $( \begin{bmatrix} 1 & 0 & | & \frac{13}{7} \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$
+- $( R2 \leftarrow R2 - 3R1 )$: $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & -7 & | & -11 \end{bmatrix} )$$
+- $( R2 \leftarrow R2 / -7 )$: $$( \begin{bmatrix} 1 & 2 & | & 5 \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
+- $( R1 \leftarrow R1 - 2R2 )$: $$( \begin{bmatrix} 1 & 0 & | & \frac{13}{7} \\ 0 & 1 & | & \frac{11}{7} \end{bmatrix} )$$
 
 Thus, $( x = \frac{13}{7} )$, and $( y = \frac{11}{7} )$.
 
@@ -220,16 +222,16 @@ x - y = 2
 
 Step 1: Create the augmented matrix:
 
-$[
+$$[
 \begin{bmatrix}
 2 & 3 & | & 8 \\
 1 & -1 & | & 2
 \end{bmatrix}
-]$
+]$$
 
 **Step 2: Eliminate $( x )$ from the second equation:**
 
-- $( R2 \leftarrow R2 - \frac{1}{2}R1 )$: $( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$
+- $( R2 \leftarrow R2 - \frac{1}{2}R1 )$: $$( \begin{bmatrix} 2 & 3 & | & 8 \\ 0 & -\frac{5}{2} & | & -2 \end{bmatrix} )$$
 
 **Step 3: Solve by back substitution:**
 
@@ -262,12 +264,12 @@ $[
 
 The system of equations can be represented as:
 
-$[\begin{bmatrix}
+$$[\begin{bmatrix}
 1 & 2 \\
 3 & -1\end{bmatrix}
 \begin{bmatrix}
 x \\y\end{bmatrix}
-= \begin{bmatrix}5 \\4\end{bmatrix}]$
+= \begin{bmatrix}5 \\4\end{bmatrix}]$$
 
 Let:
 - $( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$ (Coefficient matrix)
@@ -281,31 +283,31 @@ Let:
 $( A = LU )$
 
 Where:
-- $(L)$ is a lower triangular matrix of the form $( \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} )$
-- $(U)$ is an upper triangular matrix of the form $( \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} )$
+- $(L)$ is a lower triangular matrix of the form $$( \begin{bmatrix} 1 & 0 \\ l_{21} & 1 \end{bmatrix} )$$
+- $(U)$ is an upper triangular matrix of the form $$( \begin{bmatrix} u_{11} & u_{12} \\ 0 & u_{22} \end{bmatrix} )$$ 
 
 **Compute $(L) $and $(U)$**
 
 We perform row operations on $(A)$ to make it upper triangular:
 
-- Start with $( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$.
+- Start with $$( A = \begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} )$$.
 - Perform the row operation $( R_2 \leftarrow R_2 - 3R_1 )$:
 
-  $( R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix} )$
+  $$( R_2 = \begin{bmatrix} 3 & -1 \end{bmatrix} - 3 \times \begin{bmatrix} 1 & 2 \end{bmatrix} = \begin{bmatrix} 0 & -7 \end{bmatrix} )$$
 
 Thus:
-- $( U = \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} )$
-- $( L = \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} )$
+- $$( U = \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix} )$$
+- $$( L = \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix} )$$
 
 **Step 3: Solve $(LY = B)$**
 
 Now, solve the system $(LY = B)$, where $( Y = \begin{bmatrix} y_1 \\ y_2 \end{bmatrix} )$:
 
-$[
+$$[
 \begin{bmatrix} 1 & 0 \\ 3 & 1 \end{bmatrix}
 \begin{bmatrix} y_1 \\ y_2 \end{bmatrix}
 =\begin{bmatrix} 5 \\ 4 \end{bmatrix}
-]$
+]$$
 
 From the first row:
 
@@ -317,17 +319,17 @@ $(3(5) + y_2 = 4 \quad \Rightarrow \quad y_2 = 4 - 15 = -11)$
 
 Thus:
 
-$(Y = \begin{bmatrix} 5 \\ -11 \end{bmatrix})$
+$$(Y = \begin{bmatrix} 5 \\ -11 \end{bmatrix})$$
 
 **Step 4: Solve $(UX = Y)$**
 
-Next, solve $(UX = Y)$, where $(X = \begin{bmatrix} x \\ y \end{bmatrix})$:
+Next, solve $(UX = Y)$, where $$(X = \begin{bmatrix} x \\ y \end{bmatrix})$$:
 
-$[
+$$[
 \begin{bmatrix} 1 & 2 \\ 0 & -7 \end{bmatrix}
 \begin{bmatrix} x \\ y \end{bmatrix}
 =\begin{bmatrix} 5 \\ -11 \end{bmatrix}
-]$
+]$$
 
 From the second row:
 
