@@ -10,12 +10,15 @@ A system of linear equations in $$(n)$$ variables $$( x_1, x_2, ..., x_n )$$ can
 $$[
 a_{11}x_1 + a_{12}x_2 + \dots + a_{1n}x_n = b_1
 ]$$
+
 $$[
 a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n = b_2
 ]$$
+
 $$[
 \vdots
 ]$$
+
 $$[
 a_{n1}x_1 + a_{n2}x_2 + \dots + a_{nn}x_n = b_n
 ]$$
@@ -57,6 +60,7 @@ Solve the system of equations:
 $$[
 x + 2y = 5
 ]$$
+
 $$[
 3x - y = 4
 ]$$
@@ -90,6 +94,7 @@ Now calculate $$( D_x )$$ and $$( D_y )$$:
 $$[
 D_x = \begin{vmatrix} 5 & 2 \\ 4 & -1 \end{vmatrix} = 5(-1) - 2(4) = -5 - 8 = -13
 ]$$
+
 $$[
 D_y = \begin{vmatrix} 1 & 5 \\ 3 & 4 \end{vmatrix} = 1(4) - 5(3) = 4 - 15 = -11
 ]$$
@@ -99,6 +104,7 @@ The solutions are:
 $$[
 x = \frac{D_x}{D} = \frac{-13}{-7} = \frac{13}{7}
 ]$$
+
 $$[
 y = \frac{D_y}{D} = \frac{-11}{-7} = \frac{11}{7}
 ]$$
@@ -115,6 +121,7 @@ Solve the system of equations:
 $$[
 2x + 3y = 8
 ]$$
+
 $$[
 x - y = 2
 ]$$
@@ -176,6 +183,7 @@ Solve the system:
 $$[
 x + 2y = 5
 ]$$
+
 $$[
 3x - y = 4
 ]$$
@@ -211,6 +219,7 @@ Solve the system:
 $$[
 2x + 3y = 8
 ]$$
+
 $$[
 x - y = 2
 ]$$
@@ -246,8 +255,9 @@ Solve the system:
 
 $$[
 x + 2y = 5
-]$
-$[
+]$$
+
+$$[
 x = \frac{13}{7}, \quad y = \frac{11}{7}
 ]$$
 
