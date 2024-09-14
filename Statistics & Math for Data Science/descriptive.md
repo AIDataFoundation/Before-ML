@@ -37,6 +37,7 @@ to be the average of the two values in the middle.
 <img src="https://i.upmath.me/svg/(Median%20%3D%20%5C%5B(n%2F2)th%C2%A0term%20%2B%20(n%2F2%20%2B%201th%C2%A0term%5C%5D%2F2))" alt="(Median = \[(n/2)th term + (n/2 + 1th term\]/2))" />
 
 **If n is Odd:** 
+
 <img src="https://i.upmath.me/svg/(Median%20%3D%20(n%20%2B%201)%2F2)" alt="(Median = (n + 1)/2)" />
 
 Example: If we have the set of numbers {1, 3, 5, 7, 9}, its median would
@@ -86,7 +87,7 @@ measure of the spread of data from mean.
 
 The formula for population variance is 
 
-σ2 = ∑i=1(xi − μ)2/N
+**σ2 = ∑i=1(xi − μ)2/N**
 - σ2: The symbol for population variance, read as \"sigma squared\" 
 - N: The size of the population 
 - μ: The population mean
@@ -111,7 +112,7 @@ squared differences from the mean.
 The standard deviation is the measure of indicating dispersion in a
 dataset relative to its mean
 
-σ = √\[(Σ(xi - μ)²) / (n - 1)\]
+**σ = √\[(Σ(xi - μ)²) / (n - 1)\]**
 
 Where:
 
