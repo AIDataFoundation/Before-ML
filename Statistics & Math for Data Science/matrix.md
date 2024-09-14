@@ -60,7 +60,7 @@ This matrix has 3 rows and 3 columns, and each **a_ij** represents an element of
 
 ## Matrix Operations
 
-### 1. Matrix Addition
+###  Matrix Addition
 Two matrices of the same dimension can be added by adding their corresponding elements.
 
 $[
@@ -108,7 +108,7 @@ Properties followed by Multiplication and Addition of Matrices is listed below:
 
 <img src="https://i.upmath.me/svg/(A%20(B%2BC)%20%3D%20AB%20%2B%20AC)" alt="(A (B+C) = AB + AC)" /> (Distributive)
 
-### 2. Matrix Subtraction
+###  Matrix Subtraction
 Matrix subtraction involves subtracting corresponding elements of two matrices of the same dimension.
 
 <img src="https://i.upmath.me/svg/%5B%0AD%20%3D%20A%20-%20B%0A%5D" alt="[
@@ -130,7 +130,7 @@ A - B = \begin{pmatrix}
 \end{pmatrix}
 ]" />
 
-### 3. Scalar Multiplication
+### Scalar Multiplication
 Each element of a matrix can be multiplied by a scalar (a single number).
 
 <img src="https://i.upmath.me/svg/%5B%0AB%20%3D%20c%20%5Ccdot%20A%0A%5D" alt="[
@@ -154,7 +154,7 @@ where $( B_{ij} = c \cdot A_{ij} )$, and **c** is the scalar.
 \end{pmatrix}
 ]" />
 
-### 4. Matrix Multiplication
+###  Matrix Multiplication
 Matrix multiplication is more complex than element-wise operations. If **A** is an **m×n matrix** and **B** is an **n×p matrix**, the product **C = A × B** will be an **m×p matrix** where each element is calculated as:
 
 <img src="https://i.upmath.me/svg/%5B%0AC_%7Bij%7D%20%3D%20%5Csum_%7Bk%3D1%7D%5E%7Bn%7D%20A_%7Bik%7D%20%5Ccdot%20B_%7Bkj%7D%0A%5D" alt="[
@@ -189,7 +189,7 @@ C = \begin{pmatrix}
 \end{pmatrix}
 ]" />
 
-### 5. Transpose of a Matrix
+###  Transpose of a Matrix
 The transpose of a matrix **A**, denoted as **A^T**, is formed by swapping the rows and columns.
 
 **Example:**
@@ -214,7 +214,7 @@ Properties of the transpose of a matrix are mentioned below:
 <img src="https://i.upmath.me/svg/((AB)%5ET%20%3D%20B%5ET%20A%5ET)" alt="((AB)^T = B^T A^T)" />
 
 
-### 6. Determinant of a Matrix
+### Determinant of a Matrix
 The determinant is a scalar value that can be computed from a square matrix and offers important information, such as whether the matrix is invertible. For a **2×2 matrix**:
 
 <img src="https://i.upmath.me/svg/%5B%0A%5Ctext%7Bdet%7D(A)%20%3D%20a_%7B11%7D%20%5Ccdot%20a_%7B22%7D%20-%20a_%7B12%7D%20%5Ccdot%20a_%7B21%7D%0A%5D" alt="[
@@ -230,6 +230,7 @@ A = \begin{pmatrix}
 \end{pmatrix}
 \quad \text{det}(A) = (1 \times 4) - (2 \times 3) = 4 - 6 = -2
 ]" />
+
 ### Cofactor
 
 The cofactor of an element in a matrix is a signed minor. The minor of an element is the determinant of the submatrix that remains after removing the row and column of that element. The sign of the cofactor depends on the position of the element in the matrix.
