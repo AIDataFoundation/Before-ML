@@ -1,4 +1,3 @@
-
 # 1.  **Descriptive Statistics**
 
 Descriptive statistics involves summarizing and describing the basic
@@ -23,9 +22,9 @@ The mean is another term used to refer to average. mean is simply
 computed by summing all the values in a dataset and dividing the total
 sum by the number of values in the data set.
 
-**Mean = ∑x/n**
+<img src="https://i.upmath.me/svg/(Mean%20%3D%20%E2%88%91x%2Fn)" alt="(Mean = ∑x/n)" />
 
-**Example:** If we have the dataset {2, 4, 6, 8, 10}, the mean would be
+**Example:** If we have the dataset {2, 4, 6, 8, 10}, the mean would be
 (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6
 
 2.**Median :**
@@ -34,9 +33,11 @@ The median is the middle value when data are arranged in ascending or
 descending order. If the number of values is even, the median is taken
 to be the average of the two values in the middle.
 
-**If n is Even:Median = \[(n/2)th term + (n/2 + 1th term\]/2**
+**If n is Even:**
+<img src="https://i.upmath.me/svg/(Median%20%3D%20%5C%5B(n%2F2)th%C2%A0term%20%2B%20(n%2F2%20%2B%201th%C2%A0term%5C%5D%2F2))" alt="(Median = \[(n/2)th term + (n/2 + 1th term\]/2))" />
 
-**If n is Odd Median = (n + 1)/2**
+**If n is Odd:** 
+<img src="https://i.upmath.me/svg/(Median%20%3D%20(n%20%2B%201)%2F2)" alt="(Median = (n + 1)/2)" />
 
 Example: If we have the set of numbers {1, 3, 5, 7, 9}, its median would
 be 5 because it is the middle number. If the set is {1, 2, 3, 4, 5, 6},
@@ -71,7 +72,7 @@ difference between the largest and smallest values in a dataset.
 
 **Range = Maximum value - Minimum value**
 
-**Example:** If we have the dataset {2, 4, 6, 8, 10}, the range would be
+**Example:** If we have the dataset {2, 4, 6, 8, 10}, the range would be
 10 - 2 = 8.
 
 2.**Variance :**
@@ -83,18 +84,21 @@ is more scattered from its mean and if the value of variance is low or
 minimum, then it is less scattered from the mean. Hence, it is called a
 measure of the spread of data from mean.
 
-The formula for population variance is **σ2 = ∑i=1(xi−μ)2/N**
+The formula for population variance is 
 
-• σ2: The symbol for population variance, read as \"sigma squared\" •
-N: The size of the population • μ: The population mean
+σ2 = ∑i=1(xi − μ)2/N
+- σ2: The symbol for population variance, read as \"sigma squared\" 
+- N: The size of the population 
+- μ: The population mean
 
-The formula for sample variance is **σ2 = ∑ (x − x̅)2 / n − 1**
+The formula for sample variance is 
+<img src="https://i.upmath.me/svg/(%CF%832%C2%A0%3D%20%E2%88%91%20(x%20%E2%88%92%20x%CC%85)2%C2%A0%2F%20n%20%E2%88%92%201)" alt="(σ2 = ∑ (x − x̅)2 / n − 1)" />
 
 Where: n is the sample size
 
-**Example:** If we have the dataset {2, 4, 6, 8, 10} with a mean of 6,
-the variance would be \[(2-6)² + (4-6)² + (6-6)² + (8-6)² + (10-6)²\] /
-(5 - 1) = 16 / 4 = 4
+**Example:** If we have the dataset {2, 4, 6, 8, 10} with a mean of 6,
+the variance would be <img src="https://i.upmath.me/svg/(%5B(2-6)%C2%B2%20%2B%20(4-6)%C2%B2%20%2B%20(6-6)%C2%B2%20%2B%20(8-6)%C2%B2%20%2B%20(10-6)%C2%B2%5D%20%2F%0A(5%20-%201)%20)" alt="([(2-6)² + (4-6)² + (6-6)² + (8-6)² + (10-6)²] /
+(5 - 1) )" /> = <img src="https://i.upmath.me/svg/(16%20%2F%204)" alt="(16 / 4)" /> = <img src="https://i.upmath.me/svg/4" alt="4" />
 
 3.**Standard Deviation :**
 
@@ -135,7 +139,7 @@ curve. By definition, a left-skewed distribution will have a negative
 value of skewness because most of the extreme values are falling to the
 left.
 
-![Skewness](https://raw.githubusercontent.com/AIDataFoundation/Before-ML/main/Statistics%20for%20Data%20Science/image/Skewness_1.webp)
+![Skewness](https://raw.githubusercontent.com/AIDataFoundation/Before-ML/main/Statistics%20%26%20Math%20for%20Data%20Science/image/Skewness_1.webp)
 
 
 -   Positive Skewness: Data is said to be skewed to the right-that is,
@@ -176,7 +180,7 @@ indicates that the data has heavy tails, meaning that there is a larger
 portion of data points in the tail. Low kurtosis means light tails,
 indicating fewer extreme values are in the tail of the data.
 
-![kurtosisi](https://raw.githubusercontent.com/AIDataFoundation/Before-ML/main/Statistics%20for%20Data%20Science/image/Kurtosis1.webp)
+![kurtosisi](https://raw.githubusercontent.com/AIDataFoundation/Before-ML/main/Statistics%20%26%20Math%20for%20Data%20Science/image/Kurtosis1.webp)
 
 -   Platykurtic: This distribution has light tails, with fewer extreme
     values in the tails of the distribution.
@@ -221,14 +225,14 @@ equal parts. Hence, each percentile represents the percentage of the
 data below a certain value. Percentiles are useful to describe the
 distribution of the data and occurrence of outliers.
 
--   25th Percentile or Q1: Below this value, lies 25% of the data.
+-   25th Percentile or (Q1): Below this value, lies 25% of the data.
 
--   50th Percentile Q2 or Median: The value below which 50% of the data
+-   50th Percentile (Q2) or Median: The value below which 50% of the data
     falls.
 
 -   75th Percentile (Q3): The value below which 75% of the data falls.
 
-P = (n \* (k/100)) + (1/2)
+<img src="https://i.upmath.me/svg/(P%20%3D%20(n%20%5C*%20(k%2F100))%20%2B%20(1%2F2))" alt="(P = (n \* (k/100)) + (1/2))" />
 
 Where:
 
@@ -247,11 +251,11 @@ position of the item in the list and thus, is a positional average. In
 order to find quartiles of a group of data, we have to arrange the data
 in ascending order.
 
-**Q1 = \[(n+1)/4\]th item**
+<img src="https://i.upmath.me/svg/(Q1%C2%A0%3D%20%5C%5B(n%2B1)%2F4%5C%5Dth%20item)" alt="(Q1 = \[(n+1)/4\]th item)" />
 
-**Q2 = \[(n+1)/2\]th item**
+<img src="https://i.upmath.me/svg/(Q2%C2%A0%3D%20%5C%5B(n%2B1)%2F2%5C%5Dth%20item)" alt="(Q2 = \[(n+1)/2\]th item)" />
 
-**Q3 = \[3(n+1)/4\]th item**
+<img src="https://i.upmath.me/svg/(Q3%C2%A0%3D%20%5C%5B3(n%2B1)%2F4%5C%5Dth%20item)" alt="(Q3 = \[3(n+1)/4\]th item)" />
 
 **Interquartile Range :**
 
@@ -263,11 +267,11 @@ of variation in which one divides a data set into quartiles. If Q1 is
 the first quartile and Q3 is the third quartile, then formula IQR is
 given by;
 
-**IQR = Q3 -- Q1**
+<img src="https://i.upmath.me/svg/(IQR%20%3D%20Q3%20--%20Q1)" alt="(IQR = Q3 -- Q1)" />
 
 3. **Deciles**
 
-Deciles are percentiles that divide data into ten equal parts.
-Successive deciles are each 10% increment of the data. For example, the
-first decile, D1 would be the lowest 10% in the dataset, while the tenth
+- Deciles are percentiles that divide data into ten equal parts.
+- Successive deciles are each 10% increment of the data. 
+- For example, the first decile, D1 would be the lowest 10% in the dataset, while the tenth
 decile, D10 represents the top 10% percentage.
