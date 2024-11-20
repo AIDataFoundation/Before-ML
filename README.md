@@ -1,9 +1,9 @@
 # Before-ML
 
 ### Statistics & Math for Data Science
-- [What is Statistics?](/Statistics_and_Math_for_Data_Science/Systems_of_Linear_Equations.md)
-- [Descriptive Statistics](/Statistics_and_Math_for_Data_Science/descriptive.md)
-- [Inferential Statistics](/Statistics_and_Math_for_Data_Science/inferential.md)
-- [Matrices](/Statistics_and_Math_for_Data_Science/matrix.md)
-- [Vectors and Scalars in Mathematics](/Statistics_and_Math_for_Data_Science/vector_and_scalars.md)
+- [What is Statistics?](https://github.com/AIDataFoundation/Before-ML/blob/465a5d316c67ffd6347199cf8adab443fcd94c52/Statistics%20%26%20Math%20for%20Data%20Science/1.md)
+- [Descriptive Statistics](https://github.com/AIDataFoundation/Before-ML/blob/465a5d316c67ffd6347199cf8adab443fcd94c52/Statistics%20%26%20Math%20for%20Data%20Science/descriptive.md)
+- [Inferential Statistics](https://github.com/AIDataFoundation/Before-ML/blob/465a5d316c67ffd6347199cf8adab443fcd94c52/Statistics%20%26%20Math%20for%20Data%20Science/inferential.md)
+- [Matrices](https://github.com/AIDataFoundation/Before-ML/blob/465a5d316c67ffd6347199cf8adab443fcd94c52/Statistics%20%26%20Math%20for%20Data%20Science/matrix.md)
+- [Vectors and Scalars in Mathematics](https://github.com/AIDataFoundation/Before-ML/blob/465a5d316c67ffd6347199cf8adab443fcd94c52/Statistics%20%26%20Math%20for%20Data%20Science/vector%26scalars.md)
 
